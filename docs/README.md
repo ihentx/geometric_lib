@@ -85,7 +85,36 @@
 ### Пример вызова функции
 - perimeter(`3`, `4`, `5`) → 12
 
+# История версий
+- v.0.0.1 – добавлены файлы rectangle.py и triangle.py
+- v.0.0.2 – добавлена докуменация
+- v.0.0.3 – добавлены unit-тесты
+
 # История изменений проекта
+commit 197930bd36563c6c9303ffc4b23f78fcc6074182 (HEAD -> main)
+Author: Georgiy Yanchenko <ihengeo@gmail.com>
+Date:   Tue Nov 21 23:52:56 2023 +0300
+
+    test: add unit tests for triangle.py
+
+commit 09967ee286748638978221e6a192342d6bac9dd1
+Author: Georgiy Yanchenko <ihengeo@gmail.com>
+Date:   Tue Nov 21 23:52:38 2023 +0300
+
+    test: add unit tests for square.py
+
+commit d42edbd6556c04c5884e330ef67d829b4daa3427
+Author: Georgiy Yanchenko <ihengeo@gmail.com>
+Date:   Tue Nov 21 23:51:54 2023 +0300
+
+    test: add unit tests for rectangle.py
+
+commit 9710b8fc6ed41bf38fb79f65ddbb98933ae88c98
+Author: Georgiy Yanchenko <ihengeo@gmail.com>
+Date:   Tue Nov 21 23:50:46 2023 +0300
+
+    test: add unit tests for circle.py
+
 commit eb2777b47135de64479bc389461b8bdf9293fc98 (HEAD -> laboratory)
 Author: Georgiy Yanchenko <ihengeo@gmail.com>
 Date:   Sat Sep 30 23:43:59 2023 +0300
