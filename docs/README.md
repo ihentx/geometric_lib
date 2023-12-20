@@ -94,6 +94,12 @@
 Из 32 тестов 8 не прошли проверку в связи с некорректным выполнением, из чего можно сделать вывод, что программа работает корректно в 0,25% случаев.
 
 # История изменений проекта
+commit 92945feae9e35293926c74797051b0d7b3a134f8 (HEAD -> cicd_409952, origin/cicd_409952)
+Author: Georgiy Yanchenko <ihengeo@gmail.com>
+Date:   Thu Dec 21 01:02:39 2023 +0300
+
+    test: add workflow file main.yaml
+
 commit 197930bd36563c6c9303ffc4b23f78fcc6074182 (HEAD -> main)
 Author: Georgiy Yanchenko <ihengeo@gmail.com>
 Date:   Tue Nov 21 23:52:56 2023 +0300
