@@ -1,0 +1,33 @@
+name: testing for geometric lib
+
+on:
+  push:
+
+jobs:
+  tests_for_windows:
+      name: unittests for Windows
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: run unittest for for circle
+          run: python -m unittest circle.py
+        - name: run unittest for triangle
+          run: python -m unittest triangle.py
+        - name: run unittest for rectangle
+          run: python -m unittest rectangle.py
+        - name: run unittest for square
+          run: python -m unittest square.py
+
+  tests_for_linux:
+    name: unittests on Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v4
+        - name: run unittest for circle
+          run: python -m unittest circle.py
+        - name: run unittest for triangle
+          run: python -m unittest triangle.py
+        - name: run unittest for rectangle
+          run: python -m unittest rectangle.py
+        - name: run unittest for square
+          run: python -m unittest square.py
